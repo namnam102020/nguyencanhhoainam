@@ -25,7 +25,7 @@
 .banner{
 	height: 100vh;
 	background-image: url("img/banner.jpg");
-	background-size: cover;
+	background-size: cover;	
 }
 .logo-loz{
 	height: 30px;
@@ -164,4 +164,25 @@
     -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
             box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
   }
+}
+@media screen and (max-width: 414px){
+	.banner img{
+		height: 100px;
+	}
+	.link-acher img{
+		height: 350px;
+	}
+	.intro-text{
+		padding-top: 0px;
+	}
+	.col-lg-3{
+		width: 414px;
+		height: 650px;
+	}
+	.col-4 img{
+		width: 90px;
+	}
+	.col-4 h5{
+		font-size: 15px;
+	}
 }
